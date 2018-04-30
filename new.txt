@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 ijsdkjds
 kjhdkjctyjnc
-sdjasnnsdnsdd
+=======
+dfgbdbdfbdbfb
+>>>>>>> new-feature
