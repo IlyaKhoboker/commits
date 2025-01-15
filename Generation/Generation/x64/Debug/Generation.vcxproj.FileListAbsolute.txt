@@ -1,0 +1,2 @@
+C:\Users\Rafky\source\repos\Generation\Generation\x64\Debug\Generation.vcxproj.AssemblyReference.cache
+C:\Users\Rafky\source\repos\Generation\Generation\x64\Debug\Generation.vcxproj.SuggestedBindingRedirects.cache

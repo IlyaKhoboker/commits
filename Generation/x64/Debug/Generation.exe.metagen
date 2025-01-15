@@ -1,0 +1,50 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Generation, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project3.Lexeme: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String type : Public
+    System.String value : Public
+Class Project3.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String selectedFilePath : Public
+    Int32 y : Public
+    Int32 yy : Public
+    Int32 yyy : Public
+  Methods:
+    tokenize(String): PrivateScope, Public, HideBySig
+    shiftReduce(List`1, Dictionary`2, Dictionary`2, TreeView): PrivateScope, Public, HideBySig
+    isConstant(String): PrivateScope, Public, HideBySig
+    romanToInteger(String): PrivateScope, Public, HideBySig
+    integerToRoman(Int32): PrivateScope, Public, HideBySig
+    compute(String, String, String): PrivateScope, Public, HideBySig
+    getPriority(String): PrivateScope, Public, HideBySig
+    printTriads(List`1, Int32, Int32): PrivateScope, Public, HideBySig
+    build_triads(List`1): PrivateScope, Public, HideBySig
+    processLine(List`1, Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    fold_triads(List`1): PrivateScope, Public, HideBySig
+    remove_redundant_operations(List`1): PrivateScope, Public, HideBySig
+Class Project3.MyForm+Triad: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 number : Public
+    System.String operation : Public
+    System.String operand1 : Public
+    System.String operand2 : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
